@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Produtos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="produtos-page">
+
+  <h2 class="lista-produtos">Lista de Produtos</h2>
+  <ul id="listaProdutos"></ul>
+  <p id="mensagemErro" class="erro"></p>
+  <button id="btnLogout">Sair</button>
+
+  <div class="carrinho-container" id="carrinhoBtn" title="Ver carrinho">
+    <svg class="carrinho-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-12.332-3.328l1.422-7.579h11.823l1.35 6.82-1.73 1.323h-10.865zM7 6h12v2H7V6z"/>
+    </svg>
+    <div class="contador-carrinho" id="contadorCarrinho">0</div>
+  </div>
+
+  <div id="carrinho">
+    <h3>Seu Carrinho</h3>
+    <p>Seu carrinho está vazio.</p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* Estilo da página de login */
+body.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* altura total da viewport */
+  margin: 0;
+}
+
+/* Container branco do login */
+.login-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #aaa;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-container button:hover {
+  background: #218838;
+}
+
+#mensagemErro {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Estilo da página de produtos */
+body.produtos-page {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  color: #333;
+  min-height: 100vh;
+}
+
+h2 {
+  margin-bottom: 1.5em;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+}
+
+h2.lista-produtos {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2563eb; /* azul vibrante */
+  text-align: center;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(37, 99, 235, 0.4);
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  background: #fff;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.3s ease;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li:hover {
+  background-color: #f0f4f8;
+}
+
+.produto-nome {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #111827;
+  flex: 2;
+}
+
+.produto-preco {
+  color: #22c55e; /* um verde mais vibrante */
+  font-weight: 700;
+  font-size: 1rem;
+  flex: 1;
+  text-align: right;
+}
+
+.produto-estoque {
+  flex: 1;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.erro {
+  color: #dc2626; /* vermelho mais forte */
+  margin-top: 1.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
+button#btnLogout {
+  display: block;
+  margin: 2em auto 0;
+  padding: 0.75em 2em;
+  background-color: #ef4444; /* vermelho */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 0.2);
+}
+
+button#btnLogout:hover {
+  background-color: #b91c1c;
+}
+
+/* Ícone de carrinho fixo no canto superior direito */
+.carrinho-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.carrinho-icon {
+  width: 18px;
+  height: 18px;
+  fill: #333;
+}
+
+.contador-carrinho {
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 50%;
+  min-width: 16px;
+  text-align: center;
+  user-select: none;
+  line-height: 1;
+}
+
+/* Estilo para a área do carrinho */
+#carrinho {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+}

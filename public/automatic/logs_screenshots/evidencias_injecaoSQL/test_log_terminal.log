@@ -1,0 +1,44 @@
+2025-06-12 18:06:29,044 - INFO - 
+Testando payload: ' OR '1'='1
+2025-06-12 18:06:32,394 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:32,498 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_0___OR__1___1.png
+2025-06-12 18:06:32,498 - INFO - 
+Testando payload: ' OR 1=1--
+2025-06-12 18:06:35,828 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:35,948 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_1___OR_1_1.png
+2025-06-12 18:06:35,948 - INFO - 
+Testando payload: ' OR 1=1#
+2025-06-12 18:06:39,221 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:39,292 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_2___OR_1_1#.png
+2025-06-12 18:06:39,292 - INFO - 
+Testando payload: ' OR '1'='1' --
+2025-06-12 18:06:42,563 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:42,635 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_3___OR__1___1__.png
+2025-06-12 18:06:42,635 - INFO - 
+Testando payload: ' OR 'a'='a
+2025-06-12 18:06:45,899 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:45,954 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_4___OR__a___a.png
+2025-06-12 18:06:45,954 - INFO - 
+Testando payload: ' OR ''='
+2025-06-12 18:06:49,231 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:49,341 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_5___OR_____.png
+2025-06-12 18:06:49,341 - INFO - 
+Testando payload: '='
+2025-06-12 18:06:52,604 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:52,682 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_6____.png
+2025-06-12 18:06:52,682 - INFO - 
+Testando payload: admin' --
+2025-06-12 18:06:55,933 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:56,002 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_7_admin__.png
+2025-06-12 18:06:56,002 - INFO - 
+Testando payload: admin' OR '1'='1
+2025-06-12 18:06:59,280 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:06:59,378 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_8_admin__OR__1___1.png
+2025-06-12 18:06:59,378 - INFO - 
+Testando payload: ' OR 1=1 LIMIT 1--
+2025-06-12 18:07:02,664 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:07:02,718 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_9___OR_1_1_LIMIT_1.png
+2025-06-12 18:07:02,718 - INFO - 
+Testando payload: ' OR sleep(5)--
+2025-06-12 18:07:05,995 - INFO - \u274c Falha na injeção SQL.
+2025-06-12 18:07:06,086 - INFO - Screenshot salvo em: logs_screenshots/evidencias_injecaoSQL\test_10___OR_sleep(5).png
